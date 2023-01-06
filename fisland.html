@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styleland.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>      
+            <nav>
+                <div class="logo">
+                    Get Ur Watch
+                </div>
+                <!---toogle menu button-->
+                <span class="menubtn" onclick="openNav()">&#97776;</span>
+                <div class="navlinks">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="watch-about.html">about</a></li>
+                    <li><a href="#">products</a></li>
+                    <li> <a href="#">contact</a></li>
+                    <li><a href="signUp.html">sign-Up</a></li>
+                    <button type="button">login</button>
+                </ul>
+                </div>
+            </nav>
+            <!---responsive side navbar-->
+            <div class="sidenav" id="sidenav">
+                <a href="#" class="closebtn" onclick="closeNav()">&#10006</a>
+                <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">products</a></li>
+                    <li> <a href="#">contact</a></li>
+                    <button type="button">login</button>
+            </div>
+        </div>
+        <div clas="row">
+            <div class="column">
+                <p >All GREAT ACHEIVEMENTS<br>
+                REQUIRES TIME</p>
+            <button >Purchase</button>
+            </div>
+        <div id="ig">
+            <img src="pictures/rolex.png" alt="rolex" width="80%">
+        </div>
+        </div>
+        <div>
+        <div class="watch">
+            <img src="pictures/watch.png" alt="watch" width="600px" class="imag">
+            
+        </div>
+        <div class="sum">
+            <p>
+             Get a watch that reflects your style<br>
+             -Digital watches<br>
+             -chronograph watches<br>
+             -Military watches<br>
+             -Racing watches and fashion watches <br><br>
+<i id="italo">you can follow us on social media</i><br>
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-twitter"></a>
+             <a href="#" class="fa fa-linkedin"></a>
+             <a herf="#" class="fa fa-instagram"></a>
+             <a href="#" class="fa fa-youtube"></a>
+             <a href="#" class="fa fa-google"></a>
+            </p>
+        </div>
+        <!---javascript to make side menu appear-->
+        <script>
+            function openNav(){
+                document.getElementById("sidenav").style.width="70%";
+            }
+            function closeNav(){
+                document.getElementById("sidenav").style.width="0%";
+            }
+        </script>
+   
+</body>
+</html>
